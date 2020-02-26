@@ -1,0 +1,17 @@
+<html>
+    <body>
+        <script>
+            function somar (n1, n2, callback) {
+                let resultado = n1 + n2;
+
+                callback(resultado);
+            }
+
+            somar(5, 10, function(resultado){
+                let comdezporcento = (resultado * 1.1)
+                alert(comdezporcento)
+            });
+
+        </script>
+    </body>
+</html>

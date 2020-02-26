@@ -1,0 +1,21 @@
+body{
+    font-family: sans-serif;
+
+}
+
+#card{
+    margin: auto;
+    width: 60%;
+}
+
+#divInputTarefas{
+    margin-bottom: 20px;
+}
+
+#botaoAdicionaTarefa{
+    width: 30px;
+}
+
+#botaoAdicionaTarefa:hover{
+    cursor: pointer;
+}
